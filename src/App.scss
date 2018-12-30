@@ -1,0 +1,38 @@
+@import '~antd/dist/antd.css';
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei');
+$fontsize : 35px;
+$primaryColor: #3e75db;
+.Absolute-Center {
+  text-align: center;
+  padding-top:10px;
+  padding-bottom:10px;
+  text-align: center;
+}
+
+.col-center{
+  display: flex;
+  justify-content: center;
+}
+.App-Footer{
+  font-family: 'ZCOOL XiaoWei', serif;
+  background-color: $primaryColor;
+font-size: $fontsize ;
+height: 60px;
+ display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+
+}
+.App-header {
+  font-family: 'ZCOOL XiaoWei', serif;
+  background-color: $primaryColor;
+font-size: 45px;
+height: 60px;
+ display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
